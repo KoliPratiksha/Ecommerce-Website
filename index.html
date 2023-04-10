@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="navbar ">
+            <div class="left ms-5">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+                <img src="./logo.png" alt="" style="height: 5vh;">
+
+            </div>
+            <div class="middle ">
+                <nav class="navbar navbar-light bg-light mt-5 ">
+                    <div class="container-fluid ">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+            <div class="right d-flex ">
+                <a class="nav-link active text-dark fw-bold" aria-current="page" href="#">HOME</a>
+                <a class="nav-link text-dark fw-bold" href="#">PAGES</a>
+                <a class="nav-link text-dark fw-bold " href="#">PRODUCT</a>
+                <a class="nav-link text-dark fw-bold" href="#">BLOG</a>
+                <a class="nav-link text-dark fw-bold " href="#">CONTACT</a>
+                <a class="nav-link text-dark" href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="nav-link text-dark " href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div id="hero">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <img src="./slider-bg.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+                <div class="carousel-caption d-none d-md-flex flex-column justify-content-center top-0 bottom-0 start-0"
+                    style="margin-right: 30rem;">
+                    <h1 class="text-danger fw-bold">GET START<br> <span class="text-dark">YOUR FAVRIOT SHOPING</span>
+                    </h1>
+                    <h1 class=" fw-bold fs-1 mt-5"><span class="text-danger">Sale 20% Off <br> <span
+                                class="text-dark">On Everything</span> </h1>
+
+                    <p class="text-light mt-3"></p>
+                    <div class="butto">
+                        <button type="button" class="btn btn-danger text-light fw-bold" style="width: 10rem;">Shop
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <h1 class="fw-bold fs-1 text-center mt-5">Why Shop With Us</h1>
+        <p class="fw-bold text-danger fs-1 text-center ">_____</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card " >
+                        <img src="./truck-solid.svg" class="card-img-top text-center mt-3" alt="..." >
+                        <div class="card-body ">
+                          <h5 class="card-title text-center fw-bold fs-4 ">Fast Delivery</h5>
+                          <p class="card-text text-center ">variations of passages of Lorem Ipsum available</p>
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card " >
+                        <img src="./icons8-free-60.png" class="card-img-top text-center mt-3" alt="..." >
+                        <div class="card-body ">
+                          <h5 class="card-title text-center fw-bold fs-4">Free Shiping</h5>
+                          <p class="card-text text-center ">variations of passages of Lorem Ipsum available</p>
+                          
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card " >
+                        <img src="./icons8-best-seller-50.png" class="card-img-top text-center mt-3" alt="..." >
+                        <div class="card-body ">
+                          <h5 class="card-title text-center fw-bold fs-4">Best Quality</h5>
+                          <p class="card-text text-center ">variations of passages of Lorem Ipsum available</p>
+                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Product -->
+    <div id="product" class=" mt-5 p-5">
+        <h1 class="text-center text-dark fw-bold mt-5 fs-1">Man & Woman Fashion</h1>
+        <div class="container mt-5">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Man T -shirt</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Price</span>  $ 100</p>
+                        </div>
+                        <img src="./tshirt-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./product.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./product.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Man T -shirt</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Price</span>  $ 100</p>
+                        </div>
+                        <img src="./dress-shirt-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./product.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./product.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Women Scart</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Price</span>  $ 200</p>
+                        </div>
+                        <img src="./women-clothes-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./product1.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./product1.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Electronic -->
+    <div id="electronic" class="mt-5">
+        <h1 class="text-center fw-bold mt-5 fs-1">Electronic</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Laptop</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 10,000</p>
+                        </div>
+                        <img src="./laptop-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./electronicProduct.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./electronicProduct.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Mobile</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 5000</p>
+                        </div>
+                        <img src="./mobile-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./elctronicProduct1.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./elctronicProduct1.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Computers</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 3000</p>
+                        </div>
+                        <img src="./computer-img.png"" class="card-img-top text-center mt-3" alt="..." style="height: 40vh;" >
+                        <a href="./electronicproduct2.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./electronicproduct2.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+     <!-- jewellary -->
+    <div id="electronic" class="mt-5">
+        <h1 class="text-center fw-bold mt-5 fs-1">Jewellery Accessories</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Jumkas</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 100</p>
+                        </div>
+                        <img src="./jhumka-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./jewelleary.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./jewelleary.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Necklaces</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 100</p>
+                        </div>
+                        <img src="./neklesh-img.png" class="card-img-top text-center mt-3" alt="..." >
+                        <a href="./jewelleary1.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./jewelleary1.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded " >
+                        <div class="card-body ">
+                            <h5 class="card-title text-center fw-bold fs-4">Kangans</h5>
+                            <p class="card-text text-center "><span class="text-warning fw-bold">Start Price</span>  $ 100</p>
+                        </div>
+                        <img src="./kangan-img.png" class="card-img-top text-center mt-3" alt="..."  >
+                        <a href="./jewelleary2.html" class=" text-center fs-5 text-decoration-none text-danger fw-bold mt-3">Buy Now </a>
+                        <a href="./jewelleary2.html"class="text-decoration-none text-dark fw-bold">See More</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div id="footer">
+        
+        <div class="container-fluid bg-dark">
+            <h1 class="text-center fw-bold fs-1 text-light pt-5">Famms</h1>
+            <div class="serive d-flex justify-content-center mt-5">
+                <a href="" class="text-light text-decoration-none fw-bold ms-4 ">Best Sellers</a>
+            <a href="" class="text-light text-decoration-none fw-bold ms-4 ">Gift Ideas</a>
+            <a href="" class="text-light text-decoration-none fw-bold ms-4 ">New Releas</a>
+            <a href="" class="text-light text-decoration-none fw-bold ms-4 ">Today's Deal</a>
+            <a href="" class="text-light text-decoration-none fw-bold ms-4">Customer services</a>
+        </div>
+        <h5 class="text-light mt-5 text-center" > Help Line Number : +1 1800 1200 1200</h5>
+        <p class="text-light text-center fw-bold mt-5 pb-3">© 2020 All Rights Reserved. Design by Free html Templates</p>
+        
+        </div>
+        
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</html>

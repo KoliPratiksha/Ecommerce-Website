@@ -1,0 +1,20 @@
+.carousel .h1{
+    font-size: 50%;
+}
+#about .card img{
+    height: 10vh;
+    width: 4rem;
+    margin-left: 9rem;
+
+}
+#product .card img{
+    height: 50vh;
+    width: 18rem; 
+    padding-left: 4rem;
+}
+/* #product{
+    background-color: rgb(146, 139, 143);
+} */
+.navbar{
+    background-color: rgb(252, 252, 181);
+}

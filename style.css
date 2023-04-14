@@ -2,7 +2,7 @@
     font-size: 50%;
 }
 #about .card img{
-    height: 10vh;
+    height: 9vh;
     width: 4rem;
     margin-left: 9rem;
 
@@ -17,4 +17,15 @@
 } */
 .navbar{
     background-color: rgb(252, 252, 181);
+}
+@media screen and (max-width:768px) {
+    .navbar .right a{
+        display: none;
+    }
+    .foot a{
+        display: none;
+    }
+    #product .col-md-4 .card,h1{
+        display: none;
+    }
 }

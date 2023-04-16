@@ -25,7 +25,19 @@
     .foot a{
         display: none;
     }
-    #product .col-md-4 .card,h1{
+    .text{
         display: none;
+    }
+    .text1{
+        display: none;
+    }
+    .text2{
+        display: none;
+    }
+    .text3{
+        display: none;
+    }
+    .card{
+        margin-top: 2rem;
     }
 }
